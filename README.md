@@ -27,6 +27,9 @@
     ```
     
     This will open a new tab in the browser  with port number
+   //deployment link
+   https://thechefkart-av4kiejhc-srikanths-projects-c4435475.vercel.app/
+   //if clicked on food menu (or) professional cooks (or) Timely service or (or) promt support  we can go inside website and check all the functionalities of chefkartapp  
     
 
 
