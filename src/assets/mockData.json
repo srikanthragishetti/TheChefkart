@@ -1,0 +1,603 @@
+
+  [
+    {
+    "categoryId": 1,
+    "mealType": "MAIN COURSE",
+    "type": "VEG",
+    "description": "Cabbabe is Delicious and healthy stir-fried cabbage with green peas and mild spices.",
+    "image": "https://res.cloudinary.com/damvpzjpo/image/upload/v1757661868/cabbage_qxibud.png",
+    "category": {
+      "id": 1,
+      "name": "North Indian",
+      "image": "https://res.cloudinary.com/damvpzjpo/image/upload/v1757661868/cabbage_qxibud.png",
+      "isRecommendedForMealSuggestion": true
+    },
+    "dishType": "CURRY",
+    "forChefit": true,
+    "forParty": true,
+    "id": 1,
+    "name": "Cabbage",
+    "ingredients": [
+      {
+        "name": "Black lentils",
+        "quantity": "1 cup"
+      },
+      {
+        "name": "Kidney beans",
+        "quantity": "1/4 cup"
+      },
+      {
+        "name": "Tomato puree",
+        "quantity": "1/2 cup"
+      },
+      {
+        "name": "Cream",
+        "quantity": "1/4 cup"
+      },
+      {
+        "name": "Butter",
+        "quantity": "2 tbsp"
+      }
+    ]
+  },
+  
+  {
+    "categoryId": 2,
+    "mealType": "MAIN COURSE",
+    "type": "NON-VEG",
+    "description": "Chicken marinated with yogurt and spices, roasted to perfection..",
+    "image": "https://res.cloudinary.com/damvpzjpo/image/upload/v1757661740/Tandoorichicken.png_kotugs.png",
+    "category": {
+      "id": 2,
+      "name": "Tandoori Chicken",
+      "image": "https://res.cloudinary.com/damvpzjpo/image/upload/v1757661740/Tandoorichicken.png_kotugs.png"
+    },
+    "dishType": "CURRY",
+    "id": 2,
+    "name": "Tandoori Chicken",
+    "ingredients": [
+      {
+        "name": "Cooked rice",
+        "quantity": "2 cups"
+      },
+      {
+        "name": "Eggs",
+        "quantity": "2 PC"
+      },
+      {
+        "name": "Soy sauce",
+        "quantity": "1 tbsp"
+      },
+      {
+        "name": "Spring onion",
+        "quantity": "1/4 cup chopped"
+      }
+    ]
+  },
+  {
+    "categoryId": 3,
+    "mealType": "MAIN COURSE",
+    "type": "VEG",
+    "description": "Dalmakhani with yogurt and spices, roasted to perfection..",
+    "image": "https://res.cloudinary.com/damvpzjpo/image/upload/v1757661988/Dalmakhani.png_ebvkaw.png",
+    "category": {
+      "id": 3,
+      "name": "dalmakhani",
+      "image": "https://res.cloudinary.com/damvpzjpo/image/upload/v1757661988/Dalmakhani.png_ebvkaw.png"
+    },
+    "dishType": "CURRY",
+    "id": 3,
+    "name": "dalmakhani",
+    "ingredients": [
+      {
+        "name": "Cooked rice",
+        "quantity": "2 cups"
+      },
+      {
+        "name": "Eggs",
+        "quantity": "2 PC"
+      },
+      {
+        "name": "Soy sauce",
+        "quantity": "1 tbsp"
+      },
+      {
+        "name": "Spring onion",
+        "quantity": "1/4 cup chopped"
+      }
+    ]
+  },
+  {
+    "categoryId": 4,
+    "mealType": "DESSERT",
+    "type": "VEG",
+    "description": "Soft, spongy milk-based balls soaked in sugar syrup.",
+    "image": "https://img.freepik.com/premium-psd/sweet-gulab-jamun-indian-dessert-bowl_84443-34342.jpg",
+    "category": {
+      "id": 4,
+      "name": "Gulab Jamun",
+      "image": "https://img.freepik.com/premium-psd/sweet-gulab-jamun-indian-dessert-bowl_84443-34342.jpg"
+    },
+    "dishType": "CURRY",
+    "id": 4,
+    "name": "Gulab Jamun",
+    "ingredients": [
+      {
+        "name": "maida",
+        "quantity": "2 cups"
+      },
+      {
+        "name": "Eggs",
+        "quantity": "2 PC"
+      },
+      {
+        "name": "Soy sauce",
+        "quantity": "1 tbsp"
+      },
+      {
+        "name": "Spring onion",
+        "quantity": "1/4 cup chopped"
+      }
+    ]
+  },
+  {
+    "categoryId": 5,
+    "mealType": "STARTER",
+    "type": "NON-VEG",
+    "description": "Chicken marinated with yogurt and spices, roasted to perfection.",
+    "image": "https://amritsruae.com/blog/wp-content/uploads/2021/02/tandoori-chicken.jpeg",
+    "category": {
+      "id": 5,
+      "name": "Chicken Tikka",
+      "image": "https://amritsruae.com/blog/wp-content/uploads/2021/02/tandoori-chicken.jpeg"
+    },
+    "dishType": "CURRY",
+    "id": 5,
+    "name": "Chicken Tikka",
+
+    "ingredients": [
+      {
+        "name": "Chicken",
+        "quantity": "2 cups"
+      },
+      {
+        "name": "Eggs",
+        "quantity": "2 PC"
+      },
+      {
+        "name": "Soy sauce",
+        "quantity": "1 tbsp"
+      },
+      {
+        "name": "Spring onion",
+        "quantity": "1/4 cup chopped"
+      }
+    ]
+  },
+  {
+    "categoryId": 6,
+    "mealType": "SIDES",
+    "type": "VEG",
+    "description": "Corn marinated with yogurt and spices, roasted to perfection..",
+    "image": "https://www.thefieryvegetarian.com/wp-content/uploads/2022/04/masala-corn.jpg",
+    "category": {
+      "id": 6,
+      "name": "sweet corn",
+      "image": "https://www.thefieryvegetarian.com/wp-content/uploads/2022/04/masala-corn.jpg"
+    },
+    "dishType": "CURRY",
+    "id": 6,
+    "name": "sweet corn",
+    "ingredients": [
+      {
+        "name": "Cooked rice",
+        "quantity": "2 cups"
+      },
+      {
+        "name": "Eggs",
+        "quantity": "2 PC"
+      },
+      {
+        "name": "Soy sauce",
+        "quantity": "1 tbsp"
+      },
+      {
+        "name": "Spring onion",
+        "quantity": "1/4 cup chopped"
+      }
+    ]
+  },
+  {
+    "categoryId": 7,
+    "mealType": "MAIN COURSE",
+    "type": "NON-VEG",
+    "description": "Chicken marinated with yogurt and spices, roasted to perfection..",
+    "image": "https://i.pinimg.com/736x/91/c4/7a/91c47a7663f464a7b46f16d0def806d3.jpg",
+    "category": {
+      "id": 7,
+      "name": "Chicken roast",
+      "image": "https://i.pinimg.com/736x/91/c4/7a/91c47a7663f464a7b46f16d0def806d3.jpg"
+    },
+    "dishType": "Chicken roast",
+    "id": 7,
+    "name": "Chicken roast",
+    "ingredients": [
+      {
+        "name": "Cooked rice",
+        "quantity": "2 cups"
+      },
+      {
+        "name": "Eggs",
+        "quantity": "2 PC"
+      },
+      {
+        "name": "Soy sauce",
+        "quantity": "1 tbsp"
+      },
+      {
+        "name": "Spring onion",
+        "quantity": "1/4 cup chopped"
+      }
+    ]
+  },
+  {
+    "categoryId": 8,
+    "mealType": "STARTER",
+    "type": "NON-VEG",
+    "description": "Chicken marinated with yogurt and spices, roasted to perfection..",
+    "image": "https://i.pinimg.com/736x/16/d3/0c/16d30c36e1f232f8b725c9301a66123e.jpg",
+    "category": {
+      "id": 8,
+      "name": "Chicken kabab",
+      "image": "https://i.pinimg.com/736x/16/d3/0c/16d30c36e1f232f8b725c9301a66123e.jpg"
+    },
+    "dishType": "Chicken kabab",
+    "id": 8,
+    "name": "Chicken kabab",
+    "ingredients": [
+      {
+        "name": "Chicken kabab",
+        "quantity": "2 cups"
+      },
+      {
+        "name": "Eggs",
+        "quantity": "2 PC"
+      },
+      {
+        "name": "Soy sauce",
+        "quantity": "1 tbsp"
+      },
+      {
+        "name": "Spring onion",
+        "quantity": "1/4 cup chopped"
+      }
+    ]
+  },
+  {
+    "categoryId": 9,
+    "mealType": "MAIN COURSE",
+    "type": "VEG",
+    "description": "Chicken marinated with yogurt and spices, roasted to perfection..",
+    "image": "https://i.pinimg.com/736x/19/59/1e/19591ea701f97f169932b065b2cfcbb7.jpg",
+    "category": {
+      "id": 9,
+      "name": "Veg Meals",
+      "image": "https://i.pinimg.com/736x/19/59/1e/19591ea701f97f169932b065b2cfcbb7.jpg"
+    },
+    "dishType": "Veg Meals",
+    "id": 9,
+    "name": "Veg Meals",
+    "ingredients": [
+      {
+        "name": "Chicken kabab",
+        "quantity": "2 cups"
+      },
+      {
+        "name": "Eggs",
+        "quantity": "2 PC"
+      },
+      {
+        "name": "Soy sauce",
+        "quantity": "1 tbsp"
+      },
+      {
+        "name": "Spring onion",
+        "quantity": "1/4 cup chopped"
+      }
+    ]
+  },
+  {
+    "categoryId": 10,
+    "mealType": "STARTER",
+    "type": "VEG",
+    "description": "Chicken marinated with yogurt and spices, roasted to perfection..",
+    "image": "https://i.pinimg.com/736x/db/87/16/db8716d4eb43047a30f14abb4697e30a.jpg",
+    "category": {
+      "id": 10,
+      "name": "Panner Tikka",
+      "image": "https://i.pinimg.com/736x/db/87/16/db8716d4eb43047a30f14abb4697e30a.jpg"
+    },
+    "dishType": "Panner Tikka",
+    "id": 10,
+    "name": "Panner Tikka",
+    "ingredients": [
+      {
+        "name": "panner",
+        "quantity": "2 cups"
+      },
+      {
+        "name": "Eggs",
+        "quantity": "2 PC"
+      },
+      {
+        "name": "Soy sauce",
+        "quantity": "1 tbsp"
+      },
+      {
+        "name": "Spring onion",
+        "quantity": "1/4 cup chopped"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Veg Manchuria",
+    "description": "Veg balls tossed in tangy Manchurian sauce.",
+    "image": "https://i.pinimg.com/736x/67/f9/cd/67f9cd8f1a4f182dfe39c7f567b0a1d3.jpg",
+    "mealType": "STARTER",
+    "type": "VEG",
+    "categoryId": 10,
+    "category": {
+      "id": 10,
+      "name": "Veg Dishes",
+      "image": "https://i.pinimg.com/736x/67/f9/cd/67f9cd8f1a4f182dfe39c7f567b0a1d3.jpg"
+    },
+    "dishType": "Veg Manchuria",
+    "ingredients": [
+      { "name": "Cabbage", "quantity": "1 cup" },
+      { "name": "Cornflour", "quantity": "2 tbsp" },
+      { "name": "Soy Sauce", "quantity": "1 tbsp" }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Aloo Kofta",
+    "description": "Potato dumplings cooked in rich tomato gravy.",
+    "image": "https://i.pinimg.com/736x/95/c1/04/95c104fc2adc28541abcdffad5fcf535.jpg",
+    "mealType": "MAIN COURSE",
+    "type": "VEG",
+    "categoryId": 10,
+    "category": {
+      "id": 10,
+      "name": "Veg Dishes",
+      "image": "https://i.pinimg.com/736x/95/c1/04/95c104fc2adc28541abcdffad5fcf535.jpg"
+    },
+    "dishType": "Aloo Kofta",
+    "ingredients": [
+      { "name": "Potatoes", "quantity": "2 cups" },
+      { "name": "Tomato Gravy", "quantity": "1 cup" },
+      { "name": "Spices", "quantity": "2 tbsp" }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Chana Masala",
+    "description": "Chickpeas simmered in spicy onion-tomato gravy.",
+    "image": "https://i.pinimg.com/736x/e1/33/2a/e1332ab4a8cc651f278da71986def03c.jpg",
+    "mealType": "MAIN COURSE",
+    "type": "VEG",
+    "categoryId": 10,
+    "category": {
+      "id": 10,
+      "name": "Veg Dishes",
+      "image": "https://i.pinimg.com/736x/e1/33/2a/e1332ab4a8cc651f278da71986def03c.jpg"
+    },
+    "dishType": "Chana Masala",
+    "ingredients": [
+      { "name": "Chickpeas", "quantity": "1 cup" },
+      { "name": "Onion-Tomato Gravy", "quantity": "1 cup" },
+      { "name": "Spices", "quantity": "2 tbsp" }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Dal Tadka",
+    "description": "Yellow dal cooked and tempered with ghee and spices.",
+    "image": "https://i.pinimg.com/736x/f2/82/44/f28244aedd093dc0e474ce1aba7861b8.jpg",
+    "mealType": "MAIN COURSE",
+    "type": "VEG",
+    "categoryId": 10,
+    "category": {
+      "id": 10,
+      "name": "Veg Dishes",
+      "image": "https://i.pinimg.com/736x/f2/82/44/f28244aedd093dc0e474ce1aba7861b8.jpg"
+    },
+    "dishType": "Dal Tadka",
+    "ingredients": [
+      { "name": "Yellow Lentils", "quantity": "1 cup" },
+      { "name": "Ghee", "quantity": "2 tbsp" },
+      { "name": "Spices", "quantity": "2 tbsp" }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Chocolate Cake",
+    "description": "Rich chocolate sponge layered with ganache.",
+    "image": "https://i.pinimg.com/736x/ce/dc/24/cedc242691789568ca291abd8f14da00.jpg",
+    "mealType": "DESSERT",
+    "type": "VEG",
+    "categoryId": 10,
+    "category": {
+      "id": 10,
+      "name": "Desserts",
+      "image": "https://i.pinimg.com/736x/ce/dc/24/cedc242691789568ca291abd8f14da00.jpg"
+    },
+    "dishType": "Chocolate Cake",
+    "ingredients": [
+      { "name": "Flour", "quantity": "2 cups" },
+      { "name": "Cocoa", "quantity": "1/2 cup" },
+      { "name": "Sugar", "quantity": "1 cup" }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Donut",
+    "description": "Soft fried dough rings topped with sugar glaze.",
+    "image": "https://i.pinimg.com/1200x/ee/21/9b/ee219b70fe7133677e32eebc3c56c53e.jpg",
+    "mealType": "DESSERT",
+    "type": "VEG",
+    "categoryId": 10,
+    "category": {
+      "id": 10,
+      "name": "Desserts",
+      "image": "https://i.pinimg.com/1200x/ee/21/9b/ee219b70fe7133677e32eebc3c56c53e.jpg"
+    },
+    "dishType": "Donut",
+    "ingredients": [
+      { "name": "Flour", "quantity": "2 cups" },
+      { "name": "Sugar", "quantity": "1 cup" },
+      { "name": "Oil", "quantity": "200 ml" }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Chicken Samosa",
+    "description": "Crispy fried pastry stuffed with chicken filling.",
+    "image": "https://i.pinimg.com/736x/4d/c4/f1/4dc4f1855536ecc35309dd5176e021a9.jpg",
+    "mealType": "STARTER",
+    "type": "NON-VEG",
+    "categoryId": 10,
+    "category": {
+      "id": 10,
+      "name": "Non-Veg Dishes",
+      "image": "https://i.pinimg.com/736x/4d/c4/f1/4dc4f1855536ecc35309dd5176e021a9.jpg"
+    },
+    "dishType": "Chicken Samosa",
+    "ingredients": [
+      { "name": "Chicken", "quantity": "200 g" },
+      { "name": "Pastry Sheets", "quantity": "10 pcs" },
+      { "name": "Spices", "quantity": "2 tbsp" }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Crispy Corn",
+    "description": "Golden fried corn kernels seasoned with spices.",
+    "image": "https://i.pinimg.com/1200x/f4/9d/97/f49d97cb1fd022c9914d12d2f973ac13.jpg",
+    "mealType": "SIDES",
+    "type": "VEG",
+    "categoryId": 10,
+    "category": {
+      "id": 10,
+      "name": "Veg Dishes",
+      "image": "https://i.pinimg.com/1200x/f4/9d/97/f49d97cb1fd022c9914d12d2f973ac13.jpg"
+    },
+    "dishType": "Crispy Corn",
+    "ingredients": [
+      { "name": "Corn", "quantity": "1 cup" },
+      { "name": "Cornflour", "quantity": "2 tbsp" },
+      { "name": "Spices", "quantity": "1 tbsp" }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Chicken Pasta",
+    "description": "Pasta tossed with creamy chicken sauce.",
+    "image": "https://i.pinimg.com/736x/07/c0/04/07c004733bbc785c63443e7c35a5b7f6.jpg",
+    "mealType": "SIDES",
+    "type": "NON-VEG",
+    "categoryId": 10,
+    "category": {
+      "id": 10,
+      "name": "Non-Veg Dishes",
+      "image": "https://i.pinimg.com/736x/07/c0/04/07c004733bbc785c63443e7c35a5b7f6.jpg"
+    },
+    "dishType": "Chicken Pasta",
+    "ingredients": [
+      { "name": "Pasta", "quantity": "200 g" },
+      { "name": "Chicken", "quantity": "150 g" },
+      { "name": "Cream Sauce", "quantity": "1/2 cup" }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Chicken Noodles",
+    "description": "Stir-fried noodles with chicken and vegetables.",
+    "image": "https://i.pinimg.com/736x/51/2c/6f/512c6f0023c8da63a9fd457721061fe2.jpg",
+    "mealType": "SIDES",
+    "type": "NON-VEG",
+    "categoryId": 10,
+    "category": {
+      "id": 10,
+      "name": "Non-Veg Dishes",
+      "image": "https://i.pinimg.com/736x/51/2c/6f/512c6f0023c8da63a9fd457721061fe2.jpg"
+    },
+    "dishType": "Chicken Noodles",
+    "ingredients": [
+      { "name": "Noodles", "quantity": "200 g" },
+      { "name": "Chicken", "quantity": "150 g" },
+      { "name": "Soy Sauce", "quantity": "1 tbsp" }
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Veg Noodles",
+    "description": "Stir-fried noodles with vegetables and soy sauce.",
+    "image": "https://i.pinimg.com/736x/73/8f/6c/738f6c98a734fd6da975aba2b513091e.jpg",
+    "mealType": "SIDES",
+    "type": "VEG",
+    "categoryId": 10,
+    "category": {
+      "id": 10,
+      "name": "Veg Dishes",
+      "image": "https://i.pinimg.com/736x/73/8f/6c/738f6c98a734fd6da975aba2b513091e.jpg"
+    },
+    "dishType": "Veg Noodles",
+    "ingredients": [
+      { "name": "Noodles", "quantity": "200 g" },
+      { "name": "Mixed Veggies", "quantity": "1 cup" },
+      { "name": "Soy Sauce", "quantity": "1 tbsp" }
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Chicken Burger",
+    "description": "Juicy chicken patty served in a bun with sauces.",
+    "image": "https://i.pinimg.com/736x/3d/72/bc/3d72bc224939ece8783abd2c3344e46f.jpg",
+    "mealType": "SIDES",
+    "type": "NON-VEG",
+    "categoryId": 10,
+    "category": {
+      "id": 10,
+      "name": "Non-Veg Dishes",
+      "image": "https://i.pinimg.com/736x/3d/72/bc/3d72bc224939ece8783abd2c3344e46f.jpg"
+    },
+    "dishType": "Chicken Burger",
+    "ingredients": [
+      { "name": "Chicken Patty", "quantity": "1 pc" },
+      { "name": "Bun", "quantity": "1 pc" },
+      { "name": "Lettuce & Mayo", "quantity": "2 tbsp" }
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Pizza",
+    "description": "Cheese-loaded pizza topped with veggies.",
+    "image": "https://i.pinimg.com/736x/58/bb/b8/58bbb89f734814ba745ca0e0eb05d6a1.jpg",
+    "mealType": "SIDES",
+    "type": "VEG",
+    "categoryId": 10,
+    "category": {
+      "id": 10,
+      "name": "Veg Dishes",
+      "image": "https://i.pinimg.com/736x/58/bb/b8/58bbb89f734814ba745ca0e0eb05d6a1.jpg"
+    },
+    "dishType": "Pizza",
+    "ingredients": [
+      { "name": "Pizza Base", "quantity": "1 pc" },
+      { "name": "Cheese", "quantity": "100 g" },
+      { "name": "Veggies", "quantity": "1 cup" }
+    ]
+  }
+  
+]

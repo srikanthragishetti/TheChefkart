@@ -1,0 +1,157 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+}
+
+.app-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+.filters input {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  
+}
+
+.search{
+  width: 328;
+  height: 48;
+  top: 43px;
+  left: 16px;
+  gap: 45px;
+  opacity: 1;
+  padding-top: 14px;
+  padding-right: 18px;
+  padding-bottom: 1px;
+  padding-left: 18px;
+  border-radius: 12px;
+  border-width: 1px;
+
+}
+
+.categories{
+    
+    
+    padding: 10px 0;
+    width: auto;
+    
+    top: 107px;
+    left: 16px;
+    margin:auto;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+.categories button {
+  margin: 5px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 20px;
+  background: #eee;
+  cursor: pointer;
+}
+.categories .active {
+  background: orange;
+  color: white;
+}
+
+.dish-card {
+  display: flex;
+  align-items: center;
+  width:328px;
+  height: 138px;
+  top: 43px;
+  left:16px;
+  background: white;
+  margin: 10px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.dish-card img {
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+.dish-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: Fixed 328px;
+  height: Hug 585px;
+  top: 209px;
+  left: 16px;
+  gap: 24px;
+}
+.dish-info {
+  flex: 1;
+}
+.link {
+  color: orange;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.add-btn {
+  background: green;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+}
+.remove-btn {
+  background: red;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+}
+
+.summary {
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 8px;
+}
+.continue-btn {
+  background: black;
+  color: white;
+  
+  border-radius: 10px;
+  width: 190px;
+  height: 38px;
+  margin-top: 10px;
+  margin-right: 10px;
+  
+}
+
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modal {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 400px;
+}
+.close-btn {
+  background: gray;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
